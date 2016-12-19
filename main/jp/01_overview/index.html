@@ -1,0 +1,679 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+<link href="../../style/style_overview01.css" rel="stylesheet"  type="text/css">
+<link rel="shortcut icon" href="../../images/favicon.ico" content="image/x-icon" > 
+ <title>ACE Project</title>
+ <style type="text/css">
+<!--
+.dropmenu{
+  *zoom:1;
+	list-style-type: none;
+	padding: 0;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 12px;
+	margin: 0px;
+	height: auto;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: none;
+	border-bottom-style: none;
+	border-top-color: #003;
+	border-bottom-color: #003;
+	font-style: normal;
+	clear: both;
+
+}
+
+.container .content .dropmenu .a { 
+	background-image: url(../../images/b_cst03_18_2.png);
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #FFF;
+	border-bottom-color: #6CF;
+	border-left-color: #FFF;
+	color: #003;
+}
+
+.dropmenu:before, .dropmenu:after{
+  content: "";
+  display: table;
+}
+.dropmenu:after{
+  clear: both;
+}
+.dropmenu li{
+  position: relative;
+  float: left;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+    color: #FFF;
+}
+.dropmenu li a{
+  display: block;
+  line-height: 1;
+  text-decoration: none;
+   	display: block;
+	float: left;
+	width: 12em;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #FFFFFF;
+	line-height: 35px;
+	font-weight: bold;
+	clear: none;
+	background-image: url(../../images/blue-button-new.png);
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-bottom-color: #39F;
+	border-left-color: #FFF;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #FFF;
+    color:#FFFFFF
+}
+
+.dropmenu li ul{
+	  color: #FFF;
+  list-style: none;
+  position: absolute;
+  z-index: 9999;
+  top: 100%;
+  left: 0;
+  margin: 0;
+  padding: 0;
+}
+.dropmenu li ul li{
+  width: 100%;
+  color: #FFF;
+　background-image:url(../../images/blue-button-new.png);
+}
+.dropmenu li ul li a{
+  padding: 0;
+  color: #FFF;
+  text-align: center;
+   
+	font-weight: bold;
+	background-image:url(../../images/blue-button-new.png);
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #FFF;
+	border-bottom-color: #6CF;
+	border-left-color: #FFF;
+
+}
+.dropmenu li:hover > a{
+ 	background-image:url(../../images/blue-button-new.png);
+	color: #FFF;
+}
+.dropmenu li a:hover{
+	color: #000033;
+	font-weight: bold;
+	background-image: url(../../images/b_cst03_18_2.png);
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #FFF;
+	border-bottom-color: #6CF;
+	border-left-color: #FFF;
+
+}
+
+p.menu {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 12px;
+	margin: 0px;
+	height: auto;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: none;
+	border-bottom-style: none;
+	border-top-color: #006;
+	border-bottom-color: #006;
+	font-style: normal;
+	color: #999;
+	clear: both;
+	text-align: center;
+}
+p.menu a {
+	color: #FFF;
+	display: block;
+	float: left;
+	width: 12em;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #FFFFFF;
+	line-height: 35px;
+	font-weight: bold;
+	clear: none;
+	background-image: url(../../images/blue-button-new.png);
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #6CF;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #FFF;
+	border-top-width: 1px;
+	border-top-style: none;
+	border-top-color: #FFF;
+}
+.container .content .menu .a {
+	background-image: url(../../images/b_cst03_18.png);
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #FFF;
+	border-bottom-color: #6CF;
+	border-left-color: #FFF;
+	color: #006;
+}
+
+p.menu a:hover {
+	color: #000066;
+	text-align: center;
+	background-image: url(../../images/b_cst03_18.png);
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #66CCFF;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #FFF;
+	border-left-color: #FFF;
+	text-decoration: none;
+	font-style: italic;
+}
+.header {
+	background-image: url(../../images/backgraund_2.png);
+	font-size: medium;
+	width:100%;
+	max-width:930px;
+	min-width:900px;
+	margin:0 auto;
+}
+.container {
+   -webkit-box-shadow: 1px 1px 8px #535102;
+	-moz-box-shadow: 1px 1px 7px #999966;
+	box-shadow: 1px 1px 9px #999966;
+    
+	width: 96%;/*768/960 */
+	max-width: 930px;
+	min-width: 900px;
+
+	margin: 0 auto;
+	font-size: 14px;
+	color: #000;
+}
+
+.sitemap {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: x-small;
+	color: #000;
+}
+.container .footer {
+	text-align: center;
+}
+.text2 {
+	font-size: 14px;
+}
+
+-->
+ </style>
+ 
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onload="MM_preloadImages('../../button_en_on.png','../../sitemap_jp_on.png','../../images/button_en_on.png','../../images/sitemap_jp_on.png')">
+
+<div class="container">
+ <div class="header"><a name="pagetop" id="pagetop"></a><a href="../index.html">　 <img src="../../images/ace-logo-20131111.png" width="141" height="93" alt="logo" /></a>  　
+    <!-- end .header --><img src="../../images/ace-logo-title-ver.4.png" width="557" height="65" alt="title" /><img src="../../images/button_d.png" width="17" height="90" /><a href="../../en/01_overview/index.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image1','','../../images/button_en_on.png',1)"><img src="../../images/button_en_a.png" name="Image1" width="46" height="89" border="0" id="Image1" /></a> <img src="../../images/button_d.png" width="17" height="90" /><a href="../../sitemap/index.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image2','','../../images/sitemap_jp_on.png',1)"><img src="../../images/sitemap_jp_a (2).png" name="Image2" width="73" height="89" border="0" id="Image2" /></a></div>
+
+<div class="content">
+  <style>
+#normal li ul{
+  display: none;
+}
+#normal li:hover ul{
+  display: block;
+}
+</style>
+    <p align="left" class="menu">
+    <ul id="normal"class="dropmenu">
+ <li><a href="../index.html" class="menu">ホ ー ム</a></li>
+ <li><a href="index.html" class="a">プロジェクト</a>
+     <ul>
+       <li><a href="index.html" class="a">プロジェクト紹介</a></li>
+        <li><a href="../02_members/index.html"class="b">メンバー紹介	</a>	</li>
+        <li><a href="../03_publications/index.html"class="c">文献リスト</a></li>
+         <li><a href="../04_links/index.html"class="c">リンク</a></li>	
+     </ul>
+ </li>
+ <li><a href="../07_document/index.html" class="f">ドキュメント</a></li>
+ <li><a href="../05_downloads/index.html" class="e">ダウンロード</a></li>
+<li><a href="../09_questions/index.html"class="h">Contact</a>
+   <ul>
+     <li><a href="../09_questions/index.html"class="h">問い合わせ</a></li>   
+    <li><a href="http://ace-project.kyushu-u.ac.jp/mantis/login_page.php"class="b" target="_blank">Report/Proposal</a></li>
+    </ul>
+</li>    
+ <li><a href="../08_contrib/index.html"class="g">Contrib</a></li>
+ </ul> 
+  <!-- <p>&nbsp; </p>--> 
+    <p><span class="sitemap"><a href="index.html"><u>プロジェクト</u></a> ＞ <a href="index.html"><u>プロジェクト紹介</u></a></span>　 </p>
+  　
+<p><img src="../../images/obi-pj-intro02.png" width="100%" height="38" /><!--width="916"--><br />
+　	</p>
+<table width="37%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="44" height="87">&nbsp;</td>
+    <td width="307"height="87">
+     <img src="../../images/arrow19-062.gif" width="16" height="16" align="absmiddle" /> <a href="#p01" class="midashi"><u>ACEプロジェクトについて</u></a><br />     
+     <img src="../../images/arrow19-062.gif" width="16" height="16" align="absmiddle" /> <a href="#p02" class="midashi"><u>研究機関</u></a><br />     
+     <img src="../../images/arrow19-062.gif" width="16" height="16" align="absmiddle" /> <a href="#p03" class="midashi"><u>開発ソフトウェア</u></a><br />    
+      <img src="../../images/arrow19-062.gif" width="16" height="16" align="absmiddle" /> <a href="#p04" class="midashi"><u>研究内容</u></a><br />
+      <img src="../../images/arrow19-062.gif" width="16" height="16" align="absmiddle" /> <a href="#p05" class="midashi"><u>Schedule and History</u></a>
+      </td>
+  </tr>
+</table><p>
+   　<table width="97%" height="10" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="27">&nbsp;</td>
+        <td width="904"><img src="../../images/line_gray_l.png" width="99%" height="1" align="texttop" />　
+      </tr>
+    </table>
+     <table width="72%" height="5" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="42">&nbsp;</td>
+        <td width="645"> <a name="p01" id="p01"></a><span class="subtitle">ACE（Advanced Communication  for Exa）プ ロ ジ ェ ク ト に つ い て</span>　
+      </tr>
+    </table>    
+<table width="97%" height="16" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="28">&nbsp;</td>
+        <td width="903"><img src="../../images/blue_gray line2.png" width="100%" height="16" align="texttop" />　
+      </tr>
+    </table>    
+      　  
+<table width="90%" height="87" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="45" height="87">&nbsp;</td>
+    <td width="819" height="87"><span class="text1"> ACEプロジェクトとは、(独)科学技術振興機構(JST)、戦略的創造研究推進事業CRESTの研究領域「ポストペタスケール高性能
+      計算に資するシステムソフトウェア技術の創出」(平成23年度～28年度)に採択された研究課題「省メモリ技術と動的最適化技術に
+      よるスケーラブル通信ライブラリの開発」です。
+        <br />
+        JST CREST (Core Research for Evolutional Science &amp; Technology)<br />
+        応募研究領域 ： <a href="http://www.postpeta.jst.go.jp/" target="_blank"><u>ポストペタスケール高性能計算に資するシステムソフトウェア技術の創出</u></a> <br />
+        研究題目名 ： <a href="http://www.postpeta.jst.go.jp/researchers/nanri23.html" target="_blank"><u>省メモリ技術と動的最適化技術によるスケーラブル通信ライブラリの開発</u></a><br />
+        <br />
+        研究課題概要<br />
+        今後数年間で、スーパーコンピュータのCPUコア数は１億個以上になると予想されています。本研究では、スーパーコンピュータの
+        重要な基盤ソフトウェアである通信ライブラリについて、計算機の規模によらず少ない使用メモリ量で効率よく通信を行う省メモリ技
+        術と、実行中の状況に応じて自律的に動作を調整する動的最適化技術を用いた通信ライブラリを開発するとともに、この通信ライ
+        ブラリの機能を生かした効率の良いプログラムの作成技術を研究開発します。 </span>
+      </td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<table width="97%" height="10" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="27">&nbsp;</td>
+        <td width="904"><img src="../../images/line_gray_l.png" width="99%" height="1" align="texttop" />　
+      </tr>
+    </table>
+     <table width="68%" height="5" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="39">&nbsp;</td>
+        <td width="614"> <a name="p02" id="p02"></a><span class="subtitle">研 究 機 関</span>　
+      </tr>
+    </table>    
+<table width="97%" height="16" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="28">&nbsp;</td>
+        <td width="903"><img src="../../images/blue_gray line2.png" width="100%" height="16" align="texttop" />　
+      </tr>
+    </table>    
+        
+    
+    <table width="76%" height="87" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="27" height="87">&nbsp;</td>
+    <td width="703" height="87"><span class="text1"> 
+    <p> <img src="../../images/c16_gy6.gif" width="10" height="10" /> 九州大学　情報基盤研究開発センター</p>
+ <p><img src="../../images/c16_gy6.gif" width="10" height="10" /> 富士通株式会社</p>
+<p> <img src="../../images/c16_gy6.gif" width="10" height="10" /> 公益財団法人　九州先端科学技術研究所　</p> 
+<p> <img src="../../images/c16_gy6.gif" width="10" height="10" /> 京都大学　学術情報メディアセンター　</p> 
+<p> <img src="../../images/c16_gy6.gif" width="10" height="10" /> 大分大学　</p> 
+      </td>
+  </tr>
+</table>
+<p>
+
+<table width="97%" height="10" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="27" >&nbsp;</td>
+        <td width="904"><img src="../../images/line_gray_l.png" width="99%" height="1" align="texttop" />　
+      </tr>
+    </table>
+     <table width="68%" height="5" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="39">&nbsp;</td>
+        <td width="614">  <a name="p03" id="p03"></a><span class="subtitle">開 発 ソ フ ト ウ ェ ア</span>　
+      </tr>
+    </table> 
+    <table width="97%" height="16" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="28">&nbsp;</td>
+        <td width="903"><img src="../../images/blue_gray line2.png" width="100%" height="16" align="texttop" />　
+      </tr>
+    </table>    
+        
+    
+    <table width="76%" height="16" border="0" cellspacing="0" cellpadding="0"><!--table width="871" -->
+  <tr>
+    <td width="27">&nbsp;</td>
+    <td width="703" height="16"class="text1"><p><img src="../../images/c16_gy6.gif" width="10" height="10" /> Advanced Communication Primitives (ACP)  Library</p>
+      </td></table>
+    <table width="87%" height="200" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="6%" height="200">&nbsp;</td>
+    <td width="94%" height="200"><span class="text1">    <p><img src="../../images/point040_10.gif" width="10" height="10" /> エクサスケール計算環境での利用に耐えるスケーラブルな通信ライブラリ。<br />
+    　 &lt; 特　徴 &gt;　<br />
+        　　　 ・基本通信モデルとしてRDMAモデルを提供<br />
+        　　　 ・初期状態でのメモリ消費を最小限に抑制する。<br/>
+  　　　 ・アプリケーションで頻繁に用いられる通信パターンや大域データ構造の操作をインタフェースとして定義 <br />
+              　 　　・煩雑な RDMAインタフェースによるプログラミングモデルを隠蔽する。  <br />      
+      　 　　・各インタフェースは、使用する通信用メモリ領域を明示的に確保/解放する関数を提供  <br />
+         　　　 ・メモリ領域の再利用によるメモリ効率の高い通信の実現を支援する。     <br />
+      　 　　・通信パターンや大域データ構造毎に独立したインタフェースを用意。<br />
+        　　　 ・各インタフェースについて最小限のメモリ使用量とオーバヘッドでの実装を可能とする。<br />
+        <p>
+  <      
+   </td>
+  </tr>
+</table>
+ 
+ <p></p>
+ <br />
+ 
+    
+<!--       
+<table width="97%" height="16" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="28">&nbsp;</td>
+        <td width="903"><img src="../../images/blue_gray line2.png" width="100%" height="16" align="texttop" />　
+      </tr>
+    </table>    
+    </td></p>    
+
+ <table width="900" height="5" border="0" cellspacing="0" cellpadding="0">
+   <tr>
+     <td width="33" height="5">&nbsp;</td>
+     <td width="867" height="5"><span class="text1">1. 「インタフェース」グループ </span></td>
+   </tr>
+ </table>
+ <table width="903" height="20" border="0" cellspacing="0" cellpadding="0">
+   <tr>
+     <td width="55">&nbsp;</td>
+     <td width="848" height="20"><span class="text1"><img src="../../images/point040_10.gif" width="10" height="10" /> 研究代表者：南里　豪志　（九州大学情報基盤研究開発センター、准教授）<br />
+       <img src="../../images/point040_10.gif" width="10" height="10" /> 研究項目</span></td>
+   </tr>
+ </table>
+ <table width="905" height="25" border="0" cellspacing="0" cellpadding="0">
+   <tr>
+     <td width="71">&nbsp;</td>
+     <td width="834"height="25"><span class="text1"><img src="../../images/round01-011.gif" width="8" height="8" /> 隣接通信インタフェースの実装<br />
+         <img src="../../images/round01-011.gif" width="8" height="8" /> 非ブロッキング集団通信インタフェースの実装<br />
+         <img src="../../images/round01-011.gif" width="8" height="8" /> 隣接・集団通信の動的最適化技術の開発<br />
+<img src="../../images/round01-011.gif" width="8" height="8" /> スケーラブルな通信ライブラリの実装と公開<br />
+     </span></td>
+   </tr>
+ </table>
+ <table width="200" border="0" cellspacing="0" cellpadding="0">
+   <tr>
+     <td>&nbsp;</td>
+     <td>&nbsp;</td>
+   </tr>
+ </table>
+ <table width="904" border="0" cellspacing="0" cellpadding="0">
+   <tr>
+     <td width="34">&nbsp;</td>
+     <td width="870" height="15"><span class="text1">2. 「プロトコル」グループ（研究機関別）</span></td>
+   </tr>
+ </table>
+ <table width="905" border="0" cellspacing="0" cellpadding="0">
+   <tr>
+     <td width="54">&nbsp;</td>
+     <td width="851" height="35"><span class="text1"><img src="../../images/point040_10.gif" width="10" height="10" /> 主たる共同研究者：住元　真司　（富士通株式会社次世代TC開発本部、シニアアーキテクト）<br />
+       <img src="../../images/point040_10.gif" width="10" height="10" /> 研究項目</span></td>
+   </tr>
+ </table>
+ <table width="902" border="0" cellspacing="0" cellpadding="0">
+   <tr>
+     <td width="70">&nbsp;</td>
+     <td width="832" height="15"><span class="text1"><img src="../../images/round01-011.gif" alt="" width="8" height="8" /> 通信バッファを削減した通信モデルにもとづいた通信プロトコル</span></td>
+   </tr>
+ </table>
+ <table width="200" border="0" cellspacing="0" cellpadding="0">
+   <tr>
+     <td>&nbsp;</td>
+     <td>&nbsp;</td>
+   </tr>
+ </table>
+ <table width="906" border="0" cellspacing="0" cellpadding="0">
+   <tr>
+     <td width="34">&nbsp;</td>
+     <td width="872" height="15"><span class="text1">3. 「通信路制御」グループ（研究機関別）</span></td>
+   </tr>
+ </table>
+ <table width="903" border="0" cellspacing="0" cellpadding="0">
+   <tr>
+     <td width="54">&nbsp;</td>
+     <td width="849" height="35"><span class="text1"><img src="../../images/point040_10.gif" alt="" width="10" height="10" /> 主たる共同研究者：柴村　英智　（公益財団法人九州先端科学技術研究所次世代スーパーコンピュータ開発支援室、研究員）<br />
+       <img src="../../images/point040_10.gif" alt="" width="10" height="10" /> 研究項目 </span></td>
+   </tr>
+ </table>
+ <table width="901" border="0" cellspacing="0" cellpadding="0">
+   <tr>
+     <td width="70">&nbsp;</td>
+     <td width="831" height="40"><span class="text1"><img src="../../images/round01-011.gif" alt="" width="8" height="8" /> パケット送信間隔動的最適化技術<br />
+       <img src="../../images/round01-011.gif" alt="" width="8" height="8" /> Exa FLOPS環境のアプリケーション性能予測技術</span></td>
+   </tr>
+ </table>
+ <table width="200" border="0" cellspacing="0" cellpadding="0">
+   <tr>
+     <td>&nbsp;</td>
+     <td>&nbsp;</td>
+   </tr>
+ </table>
+ <table width="904" border="0" cellspacing="0" cellpadding="0">
+   <tr>
+     <td width="35">&nbsp;</td>
+     <td width="869" height="15"><span class="text1">4. 「アプリケーション」グループ（研究機関別）</span></td>
+   </tr>
+ </table>
+ <table width="904" border="0" cellspacing="0" cellpadding="0">
+   <tr>
+     <td width="54">&nbsp;</td>
+     <td width="850" height="30"><span class="text1"><img src="../../images/point040_10.gif" alt="" width="10" height="10" /> 主たる共同研究者：高見　利也　（九州大学情報基盤研究開発センター、准教授)<br />
+       <img src="../../images/point040_10.gif" alt="" width="10" height="10" /> 研究項目</span></td>
+   </tr>
+ </table>
+ <table width="909" border="0" cellspacing="0" cellpadding="0">
+   <tr>
+     <td width="71">&nbsp;</td>
+     <td width="838" height="50"><span class="text1"><img src="../../images/round01-011.gif" alt="" width="8" height="8" /> 非ブロッキング集団通信と遠隔Atomic通信を活用したOpenFMOの開発と評価<br />
+       <img src="../../images/round01-011.gif" alt="" width="8" height="8" /> 隣接通信を活用した電磁流体プログラムの開発と評価<br />
+       <img src="../../images/round01-011.gif" alt="" width="8" height="8" /> 既存アプリケーションの隣接通信、非ブロッキング集団通信による改良<br />
+       <img src="../../images/round01-011.gif" alt="" width="8" height="8" /> ExaFLOPS環境に向けた高スケーラブルなアプリケーション作成技術の確立 </span></td>
+   </tr>
+ </table>
+ -->
+
+<table width="97%" height="10" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="27">&nbsp;</td>
+        <td width="904"><img src="../../images/line_gray_l.png" width="99%" height="1" align="texttop" />　
+      </tr>
+    </table>
+     <table width="68%" height="5" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="39">&nbsp;</td>
+        <td width="614"><a name="p04" id="p04"></a><span class="subtitle">研 究 内 容</span>　
+      </tr>
+    </table>
+    <table width="97%" height="16" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="28">&nbsp;</td>
+        <td width="903"><img src="../../images/blue_gray line2.png" width="100%" height="16" align="texttop" />　
+      </tr>
+    </table>    
+    <table width="933" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="34">&nbsp;</td>
+    <td width="899" height="15"><img src="../../images/c17_gy8.gif" alt="" width="16" height="16" align="absmiddle" /> <span class="text2"><u><a href="../../images/ryoiki-postpeta-2016.pdf"target="_blank">2016年10月 20 日JST CREST 「ポストペタスケール 高性能計算に資するソフトウェア技術の創出」領域会議　発表資料</a></u></span><a href="../../images/ryoiki-postpeta-2016.pdf"target="_blank"><u><img src="../../images/pdficon_small.png" width="16" height="16" /></u></a>　<img src="../../images/new009_01.png" width="32" height="11" /></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<table width="933" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="34">&nbsp;</td>
+    <td width="899" height="15"><img src="../../images/c17_gy8.gif" alt="" width="16" height="16" align="absmiddle" /> <span class="text2"><u><a href="../../images/ryoiki-oct2015.pdf"target="_blank">2015年10月 15 日JST CREST 「ポストペタスケール 高性能計算に資するソフトウェア技術の創出」領域会議　発表資料</a></u></span><a href="../../images/ryoiki-postpeta-2014.pdf"target="_blank"><u><img src="../../images/pdficon_small.png" width="16" height="16" /></u></a></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+    <table width="933" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="34">&nbsp;</td>
+    <td width="899" height="15"><img src="../../images/c17_gy8.gif" alt="" width="16" height="16" align="absmiddle" /> <span class="text2"><a href="../../images/ryoiki-postpeta-2014.pdf"target="_blank"><u>2014年10月 16日JST CREST 「ポストペタスケール 高性能計算に資するソフトウェア技術の創出」領域会議　発表資料</u></a></span><a href="../../images/ryoiki-postpeta-2014.pdf"target="_blank"><u><img src="../../images/pdficon_small.png" width="16" height="16" /></u></a></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+    
+    <table width="933" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="34">&nbsp;</td>
+    <td width="899" height="15"><img src="../../images/c17_gy8.gif" alt="" width="16" height="16" align="absmiddle" /> <a href="../../images/ryoiki-postpeta-2013.pdf"target="_blank" class="text2"><u>2013年10月 11日JST CREST 「ポストペタスケール 高性能計算に資するソフトウェア技術の創出」領域会議　発表資料<img src="../../images/pdficon_small.png" width="16" height="16" /></u></a></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+        
+<table width="933" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="34">&nbsp;</td>
+    <td width="899" height="15"><img src="../../images/c17_gy8.gif" alt="" width="16" height="16" align="absmiddle" /> <a href="../../images/ryoiki-2012.pdf"target="_blank" class="text2"><u>2012年11月 2日JST CREST 「ポストペタスケール 高性能計算に資するソフトウェア技術の創出」領域会議　発表資料<img src="../../images/pdficon_small.png" width="16" height="16" /></u></a></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+    
+<table width="931" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="35">&nbsp;</td>
+    <td width="896" height="15"><img src="../../images/c17_gy8.gif" alt="" width="16" height="16" align="absmiddle" /> <span class="text2"><a href="../../images/ryoiki-2011.pdf"target="_blank"><u>2011年10月11日JST CREST 「ポストペタスケール高性能計算に資するソフトウェア技術の創出」領域会議　発表資料</u></a></span><a href="../../images/ryoiki-2011.pdf"target="_blank"><u> <img src="../../images/pdficon_small.png" width="16" height="16" /></u></a></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<table width="97%" height="10" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="27">&nbsp;</td>
+        <td width="904"><img src="../../images/line_gray_l.png" width="99%" height="1" align="texttop" />　
+      </tr>
+    </table>
+     <table width="68%" height="5" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="39">&nbsp;</td>
+        <td width="614"><a name="p05" id="p05"></a><span class="subtitle">Schedule and History</span>　
+      </tr>
+    </table>    
+<table width="97%" height="16" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="28">&nbsp;</td>
+        <td width="903"><img src="../../images/blue_gray line2.png" width="100%" height="16" align="texttop" />　
+      </tr>
+    </table>    
+        
+    
+    <table width="80%" height="30" border="0" cellspacing="0" cellpadding="0"><!--table width="871" -->
+  <tr>
+    <td width="29">&nbsp;</td>
+    <td width="715" height="30">
+    <p><img src="../../images/point040_10.gif" width="10" height="10" align="absmiddle" />　<span class="text2">2015-2016 :  Evaluation and feedback.</span></p>
+    <p class="text2">                             　　　　　　　　 <a href="../05_downloads/index.html" target="_blank"><u> ACP-2.0</u></a> has been released on June 13. 2016.</p>
+    <p class="text2">            　　　　　　　　 <u>ACP-1.2</u> has been released on November 13. 2015.</p>
+    <p class="text2">            　　　　　　　　 <u>ACP-1.1.1.</u> has been released on July 13. 2015.</p> 
+    <p class="text2">            　　　　　　　　 ACP-1.1 has been released on May 11. 2015.</p> 
+    <span class="text2">
+    <!--<p> 　　　　　　　　                <a href="../07_document/index.html" target="_blank"><u>Specification of ACP-1.1</u></a> is available on May 8. 2015.</p>-->
+    </span>
+    <p class="text2"> 　　 　　　　　　<a href="http://ace-project.kyushu-u.ac.jp/mantis/login_page.php" target="_blank"><u>Mantis BTS</u></a> is available on February 9. 2015.</p> 
+    <p class="text2"><img src="../../images/point040_10.gif" width="10" height="10" align="absmiddle" />　2013-2015 :  Design, implement and publish ACE library.</p>
+     <p class="text2"> 　　　　　　　　 <a href="../../../tutorial.html" target="_blank"><u>Hands-on Tutorial of ACP at SC14.</u></a></p> 
+      <p class="text2"> 　　 　　　　　　<!---a href="../05_downloads/index.html" target="_blank"><u>ACP-1.0</u></a>-->ACP-1.0 has been released on September 1. 2014.</p> 
+    <p class="text2"> 　　　　　　　　<!-- <a href="../07_document/index.html" target="_blank"><u>Specification of ACP-1.0</u></a>--> Specification of ACP-1.0 is available on September 1. 2014.</p>
+    <p> <span class="text2"><img src="../../images/point040_10.gif" width="10" height="10" align="absmiddle" />　2012-2014 :  Research and develop individual technologies.</span></p>
+    <p class="text2"><img src="../../images/point040_10.gif" width="10" height="10" align="absmiddle" />　2011 : Start of the project.</p>
+</td>
+  </tr>
+</table>
+<p>　　　　　　　　<!-- end .content --> 　　　　　　　　　　　　　　　　　　　　　</p>
+<p>
+  <!--<p>　・<a href="index_2012.1017.html">sample</a></p><--></p>
+<table width="98%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="787">&nbsp;</td>
+    <td width="127">　 <span id="text2"><a href="#pagetop">ページトップ</a></span> <img src="../../images/yajirushi_blue03.jpg" width="11" height="12" /></td>
+  </tr>
+</table>
+  </div>
+  <div class="footer">
+    Copyright &copy; 2012 - <script type="text/javascript">var d = new Date();document.write(d.getFullYear());</script> ACE PROJECT. All Right Reserved<br />
+    
+  <script type="text/javascript"><!--
+document.write( "Last update : " , document.lastModified );
+// --></script>
+
+  <!-- end .footer --></div>
+  <!-- end .container --></div>
+</body>
+</html>
