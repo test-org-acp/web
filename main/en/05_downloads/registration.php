@@ -24,10 +24,10 @@ session_start();
 </head>
 <?php
 $errors= 0; //入力エラーをカウントする変数
-$url_program = "acp-2.0.0.tar.gz";
-$filename = "Version 2.0.0";
-$filesize = "750KB";
-$filedate = "July. 13, 2016";
+$url_program = "acp-2.1.0.tar.gz";
+$filename = "Version 2.1.0";
+$filesize = "781KB";
+$filedate = "Jan. 13, 2017";
 
 $timestamp = time();
 $timedate = date("Y/m/d/ H:i:s",$timestamp);
