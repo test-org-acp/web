@@ -19,10 +19,10 @@ session_start();
   <?php
 //session_start();
 $errors= 0; //入力エラーをカウントする変数
-$url_program = "acp-2.1.0.tar.gz";
-$filename = "Version 2.1.0";
+$url_program = "acp-3.0.0.tar.gz";
+$filename = "Version 3.0.0";
 $filesize = "781KB";
-$filedate = "Jan. 13, 2017";
+$filedate = "Jun. 29, 2017";
 
 
 $timestamp = time();
